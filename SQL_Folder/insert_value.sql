@@ -1,0 +1,103 @@
+/* Insert value for Student Table*/
+insert into Student values ('ST001','Nguyen Anh Tuan','tuan@gmail.com','male','16/03/2001')
+insert into Student values ('ST002','Phan Nhat Tan','tan@gmail.com','male','01/03/2001')
+insert into Student values ('ST003','Le Quang Huy','huy@gmail.com','male','02/03/2001')
+insert into Student values ('ST004','Nguyen Phuoc Vinh Khang','khang@gmail.com','male','03/03/2001')
+insert into Student values ('ST005','Tran Duc Anh','anh@gmail.com','male','04/03/2001')
+insert into Student values ('ST006','Nguyen Van A','a@gmail.com','male','05/03/2001')
+insert into Student values ('ST007','Nguyen Van B','b@gmail.com','male','06/03/2001')
+insert into Student values ('ST008','Nguyen Van C','c@gmail.com','male','07/03/2001')
+insert into Student values ('ST009','Nguyen Van D','d@gmail.com','male','08/03/2001')
+insert into Student values ('ST010','Nguyen Ngoc Sang','sang@gmail.com','male','09/03/2001')
+insert into Student values ('ST011','Nguyen Thi Hoai','hoai@gmail.com','female','10/03/2001')
+insert into Student values ('ST012','Nguyen Van E','e@gmail.com','male','11/03/2001')
+insert into Student values ('ST013','Nguyen Van F','f@gmail.com','male','12/03/2001')
+
+/*Insert value for Teacher Table*/
+insert into Teacher values ('T001', 'Phan Thanh Quang')
+insert into Teacher values ('T002','Nguyen Anh Dung')
+insert into Teacher values ('T003', 'Nguyen Anh Kiet')
+insert into Teacher values ('T004', 'Nguyen Ngoc Hung')
+
+/*Insert value for the Class_info Table*/
+insert into Class_Info values ('C001','Object Oriented Programing','A.402',1,17,'Monday')
+insert into Class_Info values ('C002', 'Object Oriented Programing Lab', 'A.604',5,13,'Thursday')
+insert into Class_Info values ('C003', 'Writing AE2', 'L.206',1,17,'Tuesday')
+insert into Class_Info values ('C004', 'Speaking AE2', 'L.206',1,17,'Friday')
+insert into Class_Info values ('C005', 'Calculus 3', 'A.405',1,17,'Saturday')
+insert into Class_Info values ('C006', 'Physics 3', 'A.409',1,17,'Saturday')
+
+/*Insert value for the Class Table*/
+insert into Class values ('C001','ST001','T001')
+insert into Class values ('C001','ST002','T001')
+insert into Class values ('C001','ST003','T001')
+insert into Class values ('C001','ST005','T001')
+insert into Class values ('C001','ST012','T001')
+insert into Class values ('C001','ST008','T001')
+insert into Class values ('C001','ST010','T001')
+insert into Class values ('C001','ST013','T001')
+
+insert into Class values ('C002','ST007','T001')
+insert into Class values ('C002','ST008','T001')
+insert into Class values ('C002','ST009','T001')
+insert into Class values ('C002','ST010','T001')
+insert into Class values ('C002','ST011','T001')
+insert into Class values ('C002','ST012','T001')
+insert into Class values ('C002','ST013','T001')
+insert into Class values ('C002','ST003','T001')
+insert into Class values ('C002','ST002','T001')
+
+insert into Class values ('C003','ST001','T002')
+insert into Class values ('C003','ST002','T002')
+insert into Class values ('C003','ST003','T002')
+insert into Class values ('C003','ST004','T002')
+insert into Class values ('C003','ST005','T002')
+insert into Class values ('C003','ST006','T002')
+insert into Class values ('C003','ST007','T002')
+insert into Class values ('C003','ST008','T002')
+
+
+insert into Class values ('C004','ST005','T003')
+insert into Class values ('C004','ST006','T003')
+insert into Class values ('C004','ST007','T003')
+insert into Class values ('C004','ST008','T003')
+insert into Class values ('C004','ST009','T003')
+insert into Class values ('C004','ST010','T003')
+insert into Class values ('C004','ST012','T003')
+insert into Class values ('C004','ST013','T003')
+
+insert into Class values ('C005','ST009','T004')
+insert into Class values ('C005','ST010','T004')
+insert into Class values ('C005','ST011','T004')
+insert into Class values ('C005','ST012','T004')
+insert into Class values ('C005','ST013','T004')
+insert into Class values ('C005','ST001','T004')
+insert into Class values ('C005','ST007','T004')
+insert into Class values ('C005','ST008','T004')
+
+/*Insert value for the Absence table*/
+insert into Absence values ('C001', 'ST001','2022/03/16')
+insert into Absence values ('C001', 'ST002','2022/03/24')
+insert into Absence values ('C001', 'ST003','2022/03/16')
+insert into Absence values ('C001', 'ST005','2022/03/09')
+
+insert into Absence values ('C002', 'ST007','2022/03/16')
+insert into Absence values ('C002', 'ST007','2022/03/24')
+insert into Absence values ('C002', 'ST009','2022/03/16')
+insert into Absence values ('C002', 'ST010','2022/03/09')
+
+insert into Absence values ('C003', 'ST001','2022/03/12')
+insert into Absence values ('C003', 'ST002','2022/03/17')
+insert into Absence values ('C003', 'ST003','2022/04/01')
+insert into Absence values ('C003', 'ST005','2022/04/08')
+
+insert into Absence values ('C004', 'ST010','2022/03/16')
+insert into Absence values ('C004', 'ST005','2022/04/01')
+insert into Absence values ('C004', 'ST005','2022/04/14')
+insert into Absence values ('C004', 'ST006','2022/03/09')
+
+insert into Absence values ('C005', 'ST008','2022/03/16')
+insert into Absence values ('C005', 'ST009','2022/05/02')
+insert into Absence values ('C005', 'ST010','2022/05/09')
+insert into Absence values ('C005', 'ST011','2022/05/16')
+
